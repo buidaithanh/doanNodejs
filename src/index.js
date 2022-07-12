@@ -22,6 +22,9 @@ app.get("/trang-chu", (req, res) => {
 app.get("/tin-tuc", (req, res) => {
   res.render("tintuc");
 });
+app.get("/dangnhap", (req, res) => {
+  res.render("dangnhap");
+});
 
 // app.get("/gio-hang", (req, res) => {
 //   res.render("giohang");
